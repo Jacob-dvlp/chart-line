@@ -95,6 +95,7 @@ class MySlideShow extends StatelessWidget {
 ## Gif
 
 Normal Example:
+
 ![normal](https://github.com/Jacob-dvlp/chart-line/blob/master/demo.gif)
 
 ```dart
