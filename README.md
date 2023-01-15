@@ -16,7 +16,6 @@ by: [Jacob Larte](https://github.com/Jacob-dvlp/chart-line.git)
 
 ## Preview
 
-
 ## Installation
 
 Add `chart_line: ^0.0.1` to your `pubspec.yaml` dependencies. And import it:

@@ -43,9 +43,11 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: EdgeInsets.all(8.0),
             child: ChartLine(
+              backgroundColorLine: Colors.amberAccent,
               value: 50,
               backgroundColor: Colors.pink,
               label: 'Pink',
+              textStyleLine: TextStyle(color: Colors.deepOrange),
             ),
           ),
           Padding(
