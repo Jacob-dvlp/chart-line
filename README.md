@@ -38,8 +38,8 @@ Column(
   
   ## General Example
 ```dart
-class MySlideShow extends StatelessWidget {
-  const MySlideShow({Key? key}) : super(key: key);
+class MyExemple extends StatelessWidget {
+  const MyExemple({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
