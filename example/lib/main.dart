@@ -33,8 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: const Color(0XFF07111a),
       appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
       body: Column(
@@ -43,11 +41,11 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: EdgeInsets.all(8.0),
             child: ChartLine(
-              backgroundColorLine: Colors.amberAccent,
-              value: 50,
+              backgroundColorLine: Colors.white,
+              value: 15,
               backgroundColor: Colors.pink,
               label: 'Pink',
-              textStyleLine: TextStyle(color: Colors.deepOrange),
+              textStyleLine: TextStyle(color: Colors.blue),
             ),
           ),
           Padding(
