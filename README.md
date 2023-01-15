@@ -17,7 +17,7 @@ by: [Jacob Larte](https://github.com/Jacob-dvlp/chart-line.git)
 
 ## Installation
 
-Add `chart_line: ^0.0.2` to your `pubspec.yaml` dependencies. And import it:
+Add `chart_line: ^0.0.3` to your `pubspec.yaml` dependencies. And import it:
 
 ```dart
 import 'package:chart_line/chart_line.dart';

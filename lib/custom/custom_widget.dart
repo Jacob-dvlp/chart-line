@@ -6,13 +6,15 @@ class CustomWidget extends StatelessWidget {
   final Color? backgroundColor;
   final Color? backgroundColorLine;
   final TextStyle? textStyleLine;
+  final BorderRadiusGeometry? borderRadius;
   const CustomWidget({
     Key? key,
     required this.label,
     required this.value,
     required this.backgroundColor,
     required this.backgroundColorLine,
-    this.textStyleLine,
+    required this.textStyleLine,
+    required this.borderRadius,
   }) : super(key: key);
 
   @override
@@ -44,10 +46,10 @@ class CustomWidget extends StatelessWidget {
           height: 10,
           margin: const EdgeInsets.only(left: 15),
           child: ClipRRect(
-            borderRadius: const BorderRadius.all(Radius.circular(10)),
+            borderRadius:
+                borderRadius ?? const BorderRadius.all(Radius.circular(10)),
             child: LinearProgressIndicator(
-              backgroundColor: backgroundColorLine ??
-                  const Color.fromARGB(255, 255, 255, 255),
+              backgroundColor: backgroundColorLine ?? Colors.white,
               valueColor: AlwaysStoppedAnimation<Color>(backgroundColor!),
               value: ConvertValue.convertDouble(value),
             ),

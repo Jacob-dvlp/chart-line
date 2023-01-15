@@ -1,6 +1,6 @@
 name: chart_line
 description: This package is to help work with simple graphics.
-version: 0.0.2
+version: 0.0.3
 homepage:  https://www.linkedin.com/in/jacob-lartes
 repository:  https://github.com/Jacob-dvlp/chart-line
 environment:
