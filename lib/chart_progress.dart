@@ -9,5 +9,5 @@ class ChartProgress extends StatelessWidget {
       padding: EdgeInsets.all(8.0),
       child: CircularProgressIndicator(),
     );
-  }
+  } 
 }
